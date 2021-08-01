@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SportsBet247.Data\SportsBet247.Data.csproj" />
+    <ProjectReference Include="..\SportsBet247.Models\SportsBet247.Models.csproj" />
+  </ItemGroup>
+
+</Project>

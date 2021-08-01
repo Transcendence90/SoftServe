@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Data", "SportsBet247.Data\SportsBet247.Data.csproj", "{2EFA5A01-5304-4499-A3D6-9600A04CDC17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Services", "SportsBet247.Services\SportsBet247.Services.csproj", "{67E74D7D-CF47-43F2-9ADC-F629C292B9A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Models", "SportsBet247.Models\SportsBet247.Models.csproj", "{8170B70D-C4D5-4138-8A95-B8D649AD1B71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Importer", "SportsBet247.Importer\SportsBet247.Importer.csproj", "{8B744935-2F52-456F-9085-D725A113CA45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.ConsoleApplication", "SportsBet247.ConsoleApplication\SportsBet247.ConsoleApplication.csproj", "{355190B0-69F7-40A3-8EE5-D0681FA4173E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EFA5A01-5304-4499-A3D6-9600A04CDC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFA5A01-5304-4499-A3D6-9600A04CDC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFA5A01-5304-4499-A3D6-9600A04CDC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFA5A01-5304-4499-A3D6-9600A04CDC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E74D7D-CF47-43F2-9ADC-F629C292B9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E74D7D-CF47-43F2-9ADC-F629C292B9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E74D7D-CF47-43F2-9ADC-F629C292B9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E74D7D-CF47-43F2-9ADC-F629C292B9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8170B70D-C4D5-4138-8A95-B8D649AD1B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8170B70D-C4D5-4138-8A95-B8D649AD1B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8170B70D-C4D5-4138-8A95-B8D649AD1B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8170B70D-C4D5-4138-8A95-B8D649AD1B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B744935-2F52-456F-9085-D725A113CA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B744935-2F52-456F-9085-D725A113CA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B744935-2F52-456F-9085-D725A113CA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B744935-2F52-456F-9085-D725A113CA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355190B0-69F7-40A3-8EE5-D0681FA4173E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355190B0-69F7-40A3-8EE5-D0681FA4173E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355190B0-69F7-40A3-8EE5-D0681FA4173E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355190B0-69F7-40A3-8EE5-D0681FA4173E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2F8AB7D-8A49-4778-AE36-2402B1936BE7}
+	EndGlobalSection
+EndGlobal
