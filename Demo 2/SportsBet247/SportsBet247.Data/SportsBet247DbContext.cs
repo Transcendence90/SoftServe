@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SportsBet247.Models;
-using System;
 
 namespace SportsBet247.Data
 {

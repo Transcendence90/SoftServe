@@ -21,7 +21,6 @@ namespace SportsBet247.Models
 
         public double DrawOdd { get; set; }
 
-        [Required]
         public string Result { get; set; }
     }
 }

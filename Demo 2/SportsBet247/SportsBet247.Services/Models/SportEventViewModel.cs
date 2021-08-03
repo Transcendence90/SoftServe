@@ -1,16 +1,11 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 
-namespace SportsBet247.Models
+namespace SportsBet247.Services.Models
 {
-    public class VolleyballEvent
+    public class SportEventViewModel
     {
-        public int Id { get; set; }
-
-        [Required]
         public string HomeTeamName { get; set; }
 
-        [Required]
         public string AwayTeamName { get; set; }
 
         public DateTime PlayedOn { get; set; }
@@ -18,6 +13,8 @@ namespace SportsBet247.Models
         public double HomeTeamOdd { get; set; }
 
         public double AwayTeamOdd { get; set; }
+
+        public double DrawOdd { get; set; }
 
         public string Result { get; set; }
     }
