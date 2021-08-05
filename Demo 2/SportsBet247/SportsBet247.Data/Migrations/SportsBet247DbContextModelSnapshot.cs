@@ -76,7 +76,6 @@ namespace SportsBet247.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Result")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecondBoxerName")
@@ -119,7 +118,6 @@ namespace SportsBet247.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Result")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -148,7 +146,6 @@ namespace SportsBet247.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Result")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecondFighterName")
@@ -221,7 +218,6 @@ namespace SportsBet247.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Result")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

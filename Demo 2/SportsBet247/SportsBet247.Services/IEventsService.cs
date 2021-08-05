@@ -6,19 +6,10 @@ namespace SportsBet247.Services
 {
     public interface IEventsService
     {
-        void Create(string homeTeamName, string awayTeamName, DateTime playedOn, double homeTeamOdd, double awayTeamOdd, double drawOdd)
-        {
-            var sportEvent = new SportEventViewModel
-            {
-                HomeTeamName = homeTeamName,
-                AwayTeamName = awayTeamName,
-                PlayedOn = playedOn,
-                HomeTeamOdd = homeTeamOdd,
-                AwayTeamOdd = awayTeamOdd,
-                DrawOdd = drawOdd,
-            };
-        }
+        public void CreateFootballEvent(string homeTeamName, string awayTeamName, DateTime playedOn, double homeTeamOdd, double awayTeamOdd, double drawOdd);
 
-        IEnumerable<EventViewModel> Search(string homeTeamName, string awayTeamName, DateTime playedOn);
+        void UpdateFootballOdds(int eventId, double newHomeTeamOdd, double newAwayTeamOdd);
+
+        IEnumerable<EventViewModel> SearchFootballEvents(DateTime playedOn);
     }
 }

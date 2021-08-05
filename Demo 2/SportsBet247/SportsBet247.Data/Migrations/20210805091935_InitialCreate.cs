@@ -38,7 +38,7 @@ namespace SportsBet247.Data.Migrations
                     FirstBoxerOdd = table.Column<double>(type: "float", nullable: false),
                     SecondBoxerOdd = table.Column<double>(type: "float", nullable: false),
                     DrawOdd = table.Column<double>(type: "float", nullable: false),
-                    Result = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Result = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -57,7 +57,7 @@ namespace SportsBet247.Data.Migrations
                     HomeTeamOdd = table.Column<double>(type: "float", nullable: false),
                     AwayTeamOdd = table.Column<double>(type: "float", nullable: false),
                     DrawOdd = table.Column<double>(type: "float", nullable: false),
-                    Result = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Result = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -76,7 +76,7 @@ namespace SportsBet247.Data.Migrations
                     FirstFighterOdd = table.Column<double>(type: "float", nullable: false),
                     SecondFighterOdd = table.Column<double>(type: "float", nullable: false),
                     DrawOdd = table.Column<double>(type: "float", nullable: false),
-                    Result = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Result = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -112,7 +112,7 @@ namespace SportsBet247.Data.Migrations
                     PlayedOn = table.Column<DateTime>(type: "datetime2", nullable: false),
                     HomeTeamOdd = table.Column<double>(type: "float", nullable: false),
                     AwayTeamOdd = table.Column<double>(type: "float", nullable: false),
-                    Result = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Result = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

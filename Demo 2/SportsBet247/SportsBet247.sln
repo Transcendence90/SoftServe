@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Data", "SportsBet247.Data\SportsBet247.Data.csproj", "{2EFA5A01-5304-4499-A3D6-9600A04CDC17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsBet247.Data", "SportsBet247.Data\SportsBet247.Data.csproj", "{2EFA5A01-5304-4499-A3D6-9600A04CDC17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Services", "SportsBet247.Services\SportsBet247.Services.csproj", "{67E74D7D-CF47-43F2-9ADC-F629C292B9A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsBet247.Services", "SportsBet247.Services\SportsBet247.Services.csproj", "{67E74D7D-CF47-43F2-9ADC-F629C292B9A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Models", "SportsBet247.Models\SportsBet247.Models.csproj", "{8170B70D-C4D5-4138-8A95-B8D649AD1B71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsBet247.Models", "SportsBet247.Models\SportsBet247.Models.csproj", "{8170B70D-C4D5-4138-8A95-B8D649AD1B71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Importer", "SportsBet247.Importer\SportsBet247.Importer.csproj", "{8B744935-2F52-456F-9085-D725A113CA45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsBet247.Importer", "SportsBet247.Importer\SportsBet247.Importer.csproj", "{8B744935-2F52-456F-9085-D725A113CA45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.ConsoleApplication", "SportsBet247.ConsoleApplication\SportsBet247.ConsoleApplication.csproj", "{355190B0-69F7-40A3-8EE5-D0681FA4173E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsBet247.ConsoleApplication", "SportsBet247.ConsoleApplication\SportsBet247.ConsoleApplication.csproj", "{355190B0-69F7-40A3-8EE5-D0681FA4173E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Web", "SportsBet247.Web\SportsBet247.Web.csproj", "{891A06F3-FB83-46DD-B398-9EF4F0D43CA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{355190B0-69F7-40A3-8EE5-D0681FA4173E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{355190B0-69F7-40A3-8EE5-D0681FA4173E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{355190B0-69F7-40A3-8EE5-D0681FA4173E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{891A06F3-FB83-46DD-B398-9EF4F0D43CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891A06F3-FB83-46DD-B398-9EF4F0D43CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891A06F3-FB83-46DD-B398-9EF4F0D43CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{891A06F3-FB83-46DD-B398-9EF4F0D43CA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
