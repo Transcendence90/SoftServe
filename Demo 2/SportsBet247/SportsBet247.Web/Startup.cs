@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SportsBet247.Data;
+using SportsBet247.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,6 +36,9 @@ namespace SportsBet247.Web
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<SportsBet247DbContext>();
             services.AddControllersWithViews();
+
+            services.AddTransient<IEventsService, EventsService>();
+            services.AddTransient<ISportEventsService, SportEventsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

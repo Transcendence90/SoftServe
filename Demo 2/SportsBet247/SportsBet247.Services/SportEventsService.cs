@@ -20,7 +20,7 @@ namespace SportsBet247.Services
         public IEnumerable<SportEventViewModel> GetTopEventsForBasketball(int count = 10)
         {
             return this.db.BasketballEvents
-                .OrderByDescending(x => x.PlayedOn)
+                .OrderBy(x => x.PlayedOn)
                 .Select(MapToBasketballEventViewModel())
                 .Take(count)
                 .ToList();
@@ -29,7 +29,7 @@ namespace SportsBet247.Services
         public IEnumerable<SportEventViewModel> GetTopEventsForBoxing(int count = 10)
         {
             return this.db.BoxingEvents
-                .OrderByDescending(x => x.PlayedOn)
+                .OrderBy(x => x.PlayedOn)
                 .Select(MapToBoxingEventViewModel())
                 .Take(count)
                 .ToList();
@@ -38,7 +38,7 @@ namespace SportsBet247.Services
         public IEnumerable<SportEventViewModel> GetTopEventsForFootball(int count = 10)
         {
             return this.db.FootballEvents
-                .OrderByDescending(x => x.PlayedOn)
+                .OrderBy(x => x.PlayedOn)
                 .Select(MapToFootballEventViewModel())
                 .Take(count)
                 .ToList();
@@ -47,7 +47,7 @@ namespace SportsBet247.Services
         public IEnumerable<SportEventViewModel> GetTopEventsForMMA(int count = 10)
         {
             return this.db.MMAEvents
-                .OrderByDescending(x => x.PlayedOn)
+                .OrderBy(x => x.PlayedOn)
                 .Select(MapToMMAEventViewModel())
                 .Take(count)
                 .ToList();
@@ -55,7 +55,7 @@ namespace SportsBet247.Services
         public IEnumerable<SportEventViewModel> GetTopEventsForTennis(int count = 10)
         {
             return this.db.TennisEvents
-                .OrderByDescending(x => x.PlayedOn)
+                .OrderBy(x => x.PlayedOn)
                 .Select(MapToTennisEventViewModel())
                 .Take(count)
                 .ToList();
@@ -64,7 +64,7 @@ namespace SportsBet247.Services
         public IEnumerable<SportEventViewModel> GetTopEventsForVolleyball(int count = 10)
         {
             return this.db.VolleyballEvents
-                .OrderByDescending(x => x.PlayedOn)
+                .OrderBy(x => x.PlayedOn)
                 .Select(MapToVolleyballEventViewModel())
                 .Take(count)
                 .ToList();

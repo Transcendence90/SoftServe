@@ -1,0 +1,40 @@
+﻿@model SportsBet247.Services.Models.SportEventsViewModel
+
+@{
+    this.ViewData["Title"] = "Football events";
+}
+
+<div class="text-center font-weight-bold btn-secondary">
+    <table class="table">
+        <thead class="btn-success">
+            <tr>
+                <th>Home team</th>
+                <th>Odd</th>
+                <th>Away team</th>
+                <th>Odd</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var footballEvent in Model.SportEvents)
+            {
+                <tr class="table-striped col-md-12">
+                    <td>
+                        @footballEvent.HomeTeamName
+                    </td>
+                    <td class="btn-warning">
+                        @footballEvent.HomeTeamOdd
+                    </td>
+                    <td>
+                        @footballEvent.AwayTeamName
+                    </td>
+                    <td class="btn-warning">
+                        @footballEvent.AwayTeamOdd
+                    </td>
+                    <td>
+                        @footballEvent.PlayedOn
+                    </td>
+                </tr>
+            }
+    </table>
+</div>
