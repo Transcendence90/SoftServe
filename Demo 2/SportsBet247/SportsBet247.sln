@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsBet247.Importer", "Sp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsBet247.ConsoleApplication", "SportsBet247.ConsoleApplication\SportsBet247.ConsoleApplication.csproj", "{355190B0-69F7-40A3-8EE5-D0681FA4173E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Web", "SportsBet247.Web\SportsBet247.Web.csproj", "{891A06F3-FB83-46DD-B398-9EF4F0D43CA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsBet247.Web", "SportsBet247.Web\SportsBet247.Web.csproj", "{C68823A0-2B93-4E1E-8982-5BD9BC748EE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{355190B0-69F7-40A3-8EE5-D0681FA4173E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{355190B0-69F7-40A3-8EE5-D0681FA4173E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{355190B0-69F7-40A3-8EE5-D0681FA4173E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{891A06F3-FB83-46DD-B398-9EF4F0D43CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{891A06F3-FB83-46DD-B398-9EF4F0D43CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{891A06F3-FB83-46DD-B398-9EF4F0D43CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{891A06F3-FB83-46DD-B398-9EF4F0D43CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68823A0-2B93-4E1E-8982-5BD9BC748EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68823A0-2B93-4E1E-8982-5BD9BC748EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68823A0-2B93-4E1E-8982-5BD9BC748EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68823A0-2B93-4E1E-8982-5BD9BC748EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
