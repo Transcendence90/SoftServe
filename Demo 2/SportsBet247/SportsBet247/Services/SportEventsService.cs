@@ -92,6 +92,7 @@ namespace SportsBet247.Services
                 HomeTeamOdd = x.HomeTeamOdd,
                 AwayTeamOdd = x.AwayTeamOdd,
                 PlayedOn = x.PlayedOn,
+                PointDifference = x.PointDifference,
             };
         }
 

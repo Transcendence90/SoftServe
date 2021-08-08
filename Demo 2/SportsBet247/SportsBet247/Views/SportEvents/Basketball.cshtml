@@ -1,7 +1,7 @@
 ﻿@model SportsBet247.ViewModels.SportEventsViewModel
 
 @{
-    this.ViewData["Title"] = "Football events";
+    this.ViewData["Title"] = "Basketball events";
 }
 
 <div class="text-center font-weight-bold btn-secondary">
@@ -10,31 +10,39 @@
             <tr>
                 <th>Home team</th>
                 <th>Odd</th>
+                <th>Point difference</th>
                 <th>Away team</th>
                 <th>Odd</th>
+                <th>Point difference</th>
                 <th>Date</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var footballEvent in Model.SportEvents)
+            @foreach (var basketballEvent in Model.SportEvents)
             {
-                <tr class="table-striped col-md-12">
-                    <td>
-                        @footballEvent.HomeTeamName
-                    </td>
-                    <td class="btn-warning">
-                        @footballEvent.HomeTeamOddView
-                    </td>
-                    <td>
-                        @footballEvent.AwayTeamName
-                    </td>
-                    <td class="btn-warning">
-                        @footballEvent.AwayTeamOddView
-                    </td>
-                    <td>
-                        @footballEvent.PlayedOn
-                    </td>
-                </tr>
+            <tr class="table-striped col-md-12">
+                <td>
+                    @basketballEvent.HomeTeamName
+                </td>
+                <td class="btn-warning">
+                    @basketballEvent.HomeTeamOddView
+                </td>
+                <td class="btn-warning">
+                    +@basketballEvent.PointDifference
+                </td>
+                <td>
+                    @basketballEvent.AwayTeamName
+                </td>
+                <td class="btn-warning">
+                    @basketballEvent.AwayTeamOddView
+                </td>
+                <td class="btn-warning">
+                    +@basketballEvent.PointDifference
+                </td>
+                <td>
+                    @basketballEvent.PlayedOn
+                </td>
+            </tr>
             }
     </table>
 </div>

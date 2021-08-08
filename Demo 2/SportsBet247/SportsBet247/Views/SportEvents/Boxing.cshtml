@@ -8,31 +8,39 @@
     <table class="table">
         <thead class="btn-success">
             <tr>
-                <th>First boxer</th>
-                <th>Odd</th>
-                <th>Second boxer</th>
-                <th>Odd</th>
+                <th>Home team</th>
+                <th>Odd-1</th>
+                <th>Away team</th>
+                <th>Odd-2</th>
+                <th></th>
+                <th>Odd-X</th>
                 <th>Date</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var boxingEvent in Model.SportEvents)
+            @foreach (var footballEvent in Model.SportEvents)
             {
                 <tr class="table-striped col-md-12">
                     <td>
-                        @boxingEvent.HomeTeamName
+                        @footballEvent.HomeTeamName
                     </td>
                     <td class="btn-warning">
-                        @boxingEvent.HomeTeamOddView
+                        @footballEvent.HomeTeamOddView
                     </td>
                     <td>
-                        @boxingEvent.AwayTeamName
+                        @footballEvent.AwayTeamName
                     </td>
                     <td class="btn-warning">
-                        @boxingEvent.AwayTeamOddView
+                        @footballEvent.AwayTeamOddView
                     </td>
                     <td>
-                        @boxingEvent.PlayedOn
+                        Draw
+                    </td>
+                    <td class="btn-warning">
+                        @footballEvent.DrawOddView
+                    </td>
+                    <td>
+                        @footballEvent.PlayedOn
                     </td>
                 </tr>
             }

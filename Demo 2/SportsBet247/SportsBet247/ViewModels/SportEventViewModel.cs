@@ -19,5 +19,9 @@ namespace SportsBet247.ViewModels
         public string AwayTeamOddView => this.AwayTeamOdd.ToString("F2");
 
         public double DrawOdd { get; set; }
+
+        public string DrawOddView => this.DrawOdd.ToString("F2");
+
+        public double PointDifference { get; set; }
     }
 }

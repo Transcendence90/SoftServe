@@ -9,32 +9,40 @@
         <thead class="btn-success">
             <tr>
                 <th>Home team</th>
-                <th>Odd</th>
+                <th>Odd-1</th>
                 <th>Away team</th>
-                <th>Odd</th>
+                <th>Odd-2</th>
+                <th></th>
+                <th>Odd-X</th>
                 <th>Date</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var footballEvent in Model.SportEvents)
             {
-                <tr class="table-striped col-md-12">
-                    <td>
-                        @footballEvent.HomeTeamName
-                    </td>
-                    <td class="btn-warning">
-                        @footballEvent.HomeTeamOddView
-                    </td>
-                    <td>
-                        @footballEvent.AwayTeamName
-                    </td>
-                    <td class="btn-warning">
-                        @footballEvent.AwayTeamOddView
-                    </td>
-                    <td>
-                        @footballEvent.PlayedOn
-                    </td>
-                </tr>
+            <tr class="table-striped col-md-12">
+                <td>
+                    @footballEvent.HomeTeamName
+                </td>
+                <td class="btn-warning">
+                    @footballEvent.HomeTeamOddView
+                </td>
+                <td>
+                    @footballEvent.AwayTeamName
+                </td>
+                <td class="btn-warning">
+                    @footballEvent.AwayTeamOddView
+                </td>
+                <td>
+                    Draw
+                </td>
+                <td class="btn-warning">
+                    @footballEvent.DrawOddView
+                </td>
+                <td>
+                    @footballEvent.PlayedOn
+                </td>
+            </tr>
             }
     </table>
 </div>
