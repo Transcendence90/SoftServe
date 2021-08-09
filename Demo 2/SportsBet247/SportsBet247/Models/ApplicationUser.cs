@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using System.Collections.Generic;
+using System;
 
 namespace SportsBet247.Models
 {
@@ -8,5 +8,7 @@ namespace SportsBet247.Models
         public double Balance { get; set; }
 
         public string Prediction { get; set; }
+
+        public DateTime DateOfBirth { get; set; }
     }
 }
