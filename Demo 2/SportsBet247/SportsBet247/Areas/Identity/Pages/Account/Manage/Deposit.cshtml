@@ -1,0 +1,19 @@
+﻿@page
+@model DepositModel
+@{
+    ViewData["Title"] = "Deposit";
+    ViewData["ActivePage"] = ManageNavPages.Deposit;
+}
+
+<h5>Deposit</h5>
+
+<form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+    <label asp-for="Input.Amount"></label>
+    <input asp-for="Input.Amount" class="form-control" />
+    <button type="submit" class="btn btn-success">Deposit</button>
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
